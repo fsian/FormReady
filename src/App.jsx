@@ -1,4 +1,5 @@
 import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         </footer>
       </div>
       
+      <Analytics />
       <SpeedInsights />
     </>
   )
